@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "How to Download or Use This Theme"
+title: "Hi I'm Juwon"
 comments: true
 description: "Hi I'm Juwon"
 keywords: "dummy content"
