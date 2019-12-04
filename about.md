@@ -4,4 +4,5 @@ title: About
 permalink: /about/
 ---
 
-Introduce yourself here... so people will know who you are and what you do.. blah..blah..blah..
+저는 Juwon Choi입니다.
+데이터를 다루고 있습니다.
