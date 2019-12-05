@@ -17,7 +17,7 @@ Local에서 해도 충분하지만.. 갑자기 colab에서 구현해보고 싶�
 
 <br/>
 
-### 1. Colab에서 Google Drive에 있는 파일을 써주려고 하면 mount작업을 먼저 해줘야한다.
+#### 1. Colab에서 Google Drive에 있는 파일을 써주려고 하면 mount작업을 먼저 해줘야한다.
 
 ```
 from google.colab import drive
@@ -27,7 +27,7 @@ drive.mount('/content/drive/')
 
 <br/>
 
-### 2. module이 불러져 올 수 있게끔 경로를 설정
+#### 2. module이 불러져 올 수 있게끔 경로를 설정
 
 내가 만든 모듈 (*.py)이 `/content/drive/My Drive/Module` 경로에 있다고 하면, 
 ```
@@ -48,6 +48,6 @@ sys.path.insert(0, '/content/drive/My Drive/Module')
 
 <br/>
 
-### 3. Import 하기
+#### 3. Import 하기
 
 경로설정이 다 되었으므로 `import <module명>`으로 바로 사용하면 된다.
