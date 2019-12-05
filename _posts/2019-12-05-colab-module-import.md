@@ -9,13 +9,13 @@ keywords: "dummy content"
 
 ## Google colab에 module import하기!
 
-
+<br/>
 
 Local에서 해도 충분하지만.. 갑자기 colab에서 구현해보고 싶은 생각이 들었다.  
 ( ~~*왜 그랬어 그냥하지..*~~ )  
 열심히 **구글링하고 얻은 결과**를 기록하고자 한다.  
 
-
+<br/>
 
 
 **1. Colab에서 Google Drive에 있는 파일을 써주려고 하면 mount작업을 먼저 해줘야한다.**
@@ -26,7 +26,7 @@ drive.mount('/content/drive/')
 ```
 라고 입력하고 google에 로그인해서 코드를 받고 입력하면, drive에 있는 파일들을 `/content/drive/`경로로 확인할 수 있다.   
 
-
+<br/>
 
 **2. module이 불러져 올 수 있게끔 경로를 설정**
 
@@ -47,7 +47,7 @@ sys.path.insert(0, '/content/drive/My Drive/Module')
 
 <img width="932" alt="스크린샷 2019-12-05 오후 3 07 24" src="https://user-images.githubusercontent.com/35826728/70208455-f86eac00-1770-11ea-8d12-f11cc0e523bf.png">
 
-
+<br/>
 
 **3. Import 하기**
 
